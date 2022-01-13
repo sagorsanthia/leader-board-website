@@ -1,0 +1,152 @@
+/*----------------------
+ Google Fonts Linking
+ ----------------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+/*----------------------
+ Defualt Utilites
+ ----------------------- */
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   background: #F3F1FF;;
+ }
+ .container {
+   background: #fff;
+   border-radius: 5px;
+   width: 870px;
+   margin: 36px 0px 21px 0px;
+ }
+ section {
+  display: flex;
+  justify-content: center;
+}
+ /*----------------------
+ Header Navigation Section
+ ----------------------- */
+ .menu-container {
+   background: #562EFF;
+   width: 1440px;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+ }
+ .menu-container .menu-nav {
+   width: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: -80px;
+ }
+ h2 i {
+   font-size: 40px;
+   margin-right: 15px;
+ }
+.menu-right, .menu-left  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.menu-right a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+}
+/*----------------------
+ Top Player section Section
+ ----------------------- */
+ .top-player {
+   padding: 30px;
+ }
+ .top-title {
+   color: #562EFF;;
+   font-size: 24px;;
+ }
+ .players {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-row-gap: 30px;
+ }
+ .player {
+   display: flex;
+   align-items: center;
+ }
+ .player img {
+   width: 56px;
+   height: 56px;
+ }
+ .player h3 {
+  color: #000000;
+  font-size: 18px;
+  margin-left: 16px;
+ }
+/*-----------------------
+      -------------
+  Top Blog Section 
+      -------------
+--------------------------*/
+
+ .main-blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 18px;
+}
+.blogs {
+  display: flex;
+}
+.blog-details {
+  margin-left: 16px;
+}
+ .blog img {
+   width: 177px;
+   height: 177px;
+ }
+ .blog h2 {
+   font-size: 20px;
+   color: #000000;
+ }
+ .blog p {
+   font-size: 16px;
+   color: #9F9F9F;
+ }
+ .blog p a {
+   text-decoration: none;
+   color: #562EFF;
+   font-size: 16px;
+ }
+ /*-----------------------
+      -------------
+      Latest Course
+      -------------
+--------------------------*/
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.thumbnail img {
+  width: 224px;
+  height: 104px;
+}
+.course-duration {
+  display: flex;
+}
+.course-duration p {
+  margin: 0;
+}
+.course-title h2 {
+  font-size: 20px;
+}
+.course-author p {
+  font-size: 14px;
+  color: #ED6B4F;;
+}
+.course-duration img  {
+  width: 14px;
+}
+.course-duration p span {
+  color: #FF4A60;
+}
+.duration-time {
+  margin-left: 50px;
+}
